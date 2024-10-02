@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.header{
+  background-color: aqua;
+  
+  padding: 15px;
+}
+
+
+
+.header-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+ul li:hover{
+  color: aliceblue;
+ 
+  text-decoration: underline;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+p{
+  font-size: 40px;
+}
+
+
+span{
+  color: salmon;
+}
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+ 
+ 
+  
+}
+
+
+
+.footer-p{
+  position: absolute;
+  font-size: 16px;
+  top: 569px;
+  
+  
+  
+
+}
+
+
+
+.image{
+  width: 300px;
+}
+
+
